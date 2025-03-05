@@ -1,0 +1,31 @@
+.d1{
+    background-color: rgb(167, 97, 97);
+}
+.d2{
+    background-color: rgb(6, 147, 223);
+    justify-self: center;
+}
+.d3{
+    background-color: rgb(97, 167, 134);
+    align-self:center;
+
+}
+.d4{
+    background-color: rgb(134, 167, 97);
+
+}
+.d5{
+    background-color: rgb(141, 97, 167);
+
+}
+.container{
+    font-size: 40px;
+    width: 100%;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 300px;
+}
